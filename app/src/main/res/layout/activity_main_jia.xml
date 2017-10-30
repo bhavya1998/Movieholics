@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jiajia"
+    android:backgroundTint="#99FFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="JIA AUR JIA"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:paddingLeft="8dp"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+
+            android:id="@+id/textView"
+            android:layout_weight="1.54" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION : "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:textColor="#424242"
+            android:text="The road trip drama unfolds the lives of two women, who have nothing in common except for their name (Jia). They also won't tell the other what exactly they are going through in life."
+            android:textSize="20sp"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/button2"
+            android:layout_toStartOf="@+id/button2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Release date : 27th October 2017 (India)"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Director : Howard Rosemeyer"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Actors  :  Kalki Koechlin, Richa Chadda,Arslan Goni"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Price : Rs250/Per Ticket"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="IMDb   :   8/10"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:padding="20dp"
+            android:onClick="order_1"
+            android:textSize="15dp"
+            android:text="ORDER NOW" />
+
+
+    </LinearLayout>
+</ScrollView>
